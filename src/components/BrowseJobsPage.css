@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #18181e39; /* Black background */
+  color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Browse Jobs Page Styling */
+.browse-jobs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #1f1f1f; /* Dark gray background for the container */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2196F3; /* Blue color for the title */
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.filter-input {
+  width: 30%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #333; /* Dark border */
+  border-radius: 4px;
+  outline: none;
+  background-color: #333; /* Dark background for input fields */
+  color: #fff; /* White text for input fields */
+}
+
+.filter-input:focus {
+  border-color: #2196F3; /* Blue border on focus */
+}
+
+.job-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job-item {
+  background-color: #2f2f2f; /* Slightly lighter background for job cards */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.job-item h3 {
+  font-size: 1.5rem;
+  color: #2196F3; /* Blue text for job titles */
+  margin-bottom: 10px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apply-button {
+  background-color: #2196F3; /* Blue button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #1976D2; /* Darker blue on hover */
+}
+
+.job-item p {
+  font-size: 1rem;
+  color: #ddd; /* Light gray for job descriptions */
+}
+
+.job-item p strong {
+  color: #2196F3; /* Blue for labels like 'Location', 'Industry' */
+}
